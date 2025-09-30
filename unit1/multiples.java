@@ -1,4 +1,4 @@
-public class Multiples 
+public class multiples 
 {
     public static void main(String[] args)
     {
