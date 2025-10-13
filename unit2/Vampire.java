@@ -27,6 +27,6 @@ public class Vampire
         testVampire(4, true, false);
       
     }
-}   
+	}   
      
-    }
+}
