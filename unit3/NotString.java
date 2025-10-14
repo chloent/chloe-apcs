@@ -10,7 +10,7 @@ public class NotString {
 
     public static void testNotString(String str, String expected) {
         String result = notString(str);
-        System.out.println("Word" + str + " Result" + result + " Expected" + expected);
+        System.out.println("Word" + str +"Result" + result + " Expected" + expected);
 
         if (result.equals(expected)) {
             System.out.println("yippee");
