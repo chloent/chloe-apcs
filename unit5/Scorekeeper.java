@@ -17,4 +17,16 @@ public class Scorekeeper
 	{ 
 		score = score + 1000; 
 	} 
+
+	public static void main(String[] args) 
+	{ 
+		Scorekeeper ref = new Scorekeeper(); 
+		ref.scoreNormal(); 
+		System.out.println(ref.getScore()); 
+		ref.scoreNormal(); 
+		System.out.println(ref.getScore());
+		ref.scoreBonus(); 
+		System.out.println(ref.getScore());
+	}
 }
+
