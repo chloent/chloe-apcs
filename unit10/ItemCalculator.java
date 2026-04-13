@@ -36,7 +36,7 @@ public class ItemCalculator
     if (expected == answer)
       System.out.println("yay !!");
     else
-      System.out.println("ew ! </3");
+      System.out.println("noo");
   }
 
 
@@ -81,9 +81,9 @@ public class ItemCalculator
     ArrayList<Item> items = new ArrayList<Item>();
 
     Item a = new Item("macbook pro", (float) 1999.99);
-    Item b = new Item("sambas", (float) 100.00);
-    Item c = new Item("jellycat bear", (float) 33.00);
-    Item d = new Item("hi chew", (float) 2.31);
+    Item b = new Item("shoes", (float) 100.00);
+    Item c = new Item("jellycat", (float) 33.00);
+    Item d = new Item("candy", (float) 2.31);
   
 
     items.add(a);

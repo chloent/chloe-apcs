@@ -1,6 +1,6 @@
 public class ArrayOfObjects
 {
-  public Rectangle (String name, double width, double height)
+  public ArrayOfObjects (String name, double width, double height)
   {
     this.name = name;
     this.width = width;
