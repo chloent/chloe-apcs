@@ -8,12 +8,7 @@ public class Colordle extends PApplet
 	int gameState;
 	int playx = 600; 
 	int playy = 350;
-	// playButton playButton1;
-	public Button playButton 
-	public setup () 
-		playButton = new Button (100, 100, 200, 200) 
-	public draw () 
-		playButton.display() 
+	PlayButton playButton;
 	
 	public void settings(){
         size(1728, 1117);
@@ -21,6 +16,7 @@ public class Colordle extends PApplet
 
 	public void setup ()
 	{
+		playButton = new PlayButton (playx,playy,width,height,background,backgroundplay,playbutton); 
 		gameState = 0;
 		background = loadImage("apcsbackground.jpg");
 		backgroundplay = loadImage("apcsbackground1.jpg"); 
@@ -35,8 +31,9 @@ public class Colordle extends PApplet
 
 public void draw ()
 	{
+		playButton.display();
 	if (gameState == 0) {
-		playButton(); 
+		playButton.playButton(); 
 	}
 	else if (gameState == 1) {
 		duringGame(); 
